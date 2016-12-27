@@ -1,0 +1,36 @@
+.home_container
+  .header
+    .header_logos
+      .instagram
+      .twitter
+        = link_to image_tag( 'twitter.png'), 'https://twitter.com/sarahvarland'
+      .facebook
+        = link_to image_tag( 'facebook.png'), 'https://www.facebook.com/sarah.varland'
+
+  .nav_bar
+    %li
+      %a{:href => "index.html"} HOME
+    %li 
+      %a{:href => "about.html"} ABOUT
+    %li.dropdown
+      %a{:href=>"#", :class=>"dropdown_button"}BOOKS
+      %ul.dropdown_content
+        %li
+          %a{:href => "treasure.html"} TREASURE POINT SECRETS
+          %a{:href => "tundra.html"} TUNDRA THREAT
+          %a{:href => "coldcase.html"} COLD CASE WITNESS
+          %a{:href => "silent.html"} SILENT NIGHT SHADOWS
+    %li 
+      %a{:href => "contact.html"} CONTACT
+    %li 
+      %a{:href => "blog.html"} BLOG
+  
+  .body_container
+    .picture_container  
+      .sarah_picture
+        = link_to image_tag('sarah.jpg')
+    .biography_container
+      .biography
+        %p <span style="font-size:30px">SARAH VARLAND</span> lives with her husband and two sons in Alaska, with a view of the mountains that astounds her every day. She loves reading, writing, hiking, kayaking, and baking. Her first book, Treasure Point Secrets, released in 2014 and is set in coastal Georgia. Her second book, Tundra Threat, also released in 2014 and is set in Alaska. Her next few books will return to the coastal town of Treasure Point, Georgia, and the next releases in June 2016.
+
+

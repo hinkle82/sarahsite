@@ -1,0 +1,34 @@
+.home_container
+  .header
+    .header_logos
+      .instagram
+      .twitter
+        = link_to image_tag( 'twitter.png'), 'https://twitter.com/sarahvarland'
+      .facebook
+        = link_to image_tag( 'facebook.png'), 'https://www.facebook.com/sarah.varland'
+
+    .nav_bar
+      %li
+        %a{:href => "index.html"} HOME
+      %li 
+        %a{:href => "about.html"} ABOUT
+      %li.dropdown
+        %a{:href=>"#", :class=>"dropdown_button"}BOOKS
+        %ul.dropdown_content
+          %li
+            %a{:href => "treasure.html"} TREASURE POINT SECRETS
+            %a{:href => "tundra.html"} TUNDRA THREAT
+            %a{:href => "coldcase.html"} COLD CASE WITNESS
+            %a{:href => "silent.html"} SILENT NIGHT SHADOWS
+      %li 
+        %a{:href => "contact.html"} CONTACT
+      %li 
+        %a{:href => "blog.html"} BLOG
+
+    .coldcase_image
+
+    .coldcase_description
+      %p <span style="font-size:30px">A DANGEROUS HOMECOMING</span>... When her big-city dreams come crashing down, Gemma Phillips returns to her small hometown—and finds herself the target of a violent stalker. And her attacker may be linked to the robbery she witnessed years ago…a case reopened after the police discovered a body, supporting her claims of overhearing a murder. Now there's only one man who can save her: lawman Matt O'Dell. For Matt, solving this decades-old mystery will finally allow him to distance himself from his father's criminal past. But Matt's drive to close the case soon turns personal. He needs to guard his reputation…but first, he must protect the woman he's just discovered he loves.
+
+    .amazon_button
+      = link_to image_tag( 'Amazon-Buy-Button.png'), 'https://www.amazon.com/Cold-Case-Witness-Inspired-Suspense-ebook/dp/B01765RL8U/ref=asap_bc?ie=UTF8'

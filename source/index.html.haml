@@ -1,0 +1,48 @@
+.home_container
+  %header
+    .header_logos
+      .instagram
+      .twitter
+        = link_to image_tag( 'twitter.png'), 'https://twitter.com/sarahvarland'
+      .facebook
+        = link_to image_tag( 'facebook.png'), 'https://www.facebook.com/sarah.varland'
+
+    %nav
+      .nav_bar
+        %li
+          %a{:href => "index.html"} HOME
+        %li 
+          %a{:href => "about.html"} ABOUT
+        %li.dropdown
+          %a{:href=>"#", :class=>"dropdown_button"}BOOKS
+          %ul.dropdown_content
+            %li
+              %a{:href => "treasure.html"} TREASURE POINT SECRETS
+              %a{:href => "tundra.html"} TUNDRA THREAT
+              %a{:href => "coldcase.html"} COLD CASE WITNESS
+              %a{:href => "silent.html"} SILENT NIGHT SHADOWS
+        %li 
+          %a{:href => "contact.html"} CONTACT
+        %li 
+          %a{:href => "blog.html"} BLOG
+
+  .mobile-author-text
+    %h2 by
+    %h1 SARAH VARLAND
+  .books
+    .books-row
+      .treasure_point_secret.book-image
+        = link_to image_tag( 'treasure_point_secrets.jpg'), 'treasure.html'
+      .tundra_threat.book-image
+        = link_to image_tag( 'tundra_threat.jpg'), 'tundra.html'
+    .books-row
+      .cold_case_witness.book-image
+        = link_to image_tag( 'cold_case_witness.jpg'), 'coldcase.html'
+      .silent_night_shadows.book-image
+        = link_to image_tag( 'silent_night_shadows.jpg'), 'silent.html'
+  .desktop-author-text
+    %h2 by
+    %h1 SARAH VARLAND
+  
+ 
+  
