@@ -1,0 +1,458 @@
+/* line 1, _clear.sass */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* line 21, _clear.sass */
+a {
+  text-decoration: none;
+  color: red; }
+
+/* line 25, _clear.sass */
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 14px;
+  line-height: 1; }
+
+/* line 34, _clear.sass */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 38, _clear.sass */
+ol, ul {
+  list-style: none; }
+
+/* line 41, _clear.sass */
+blockquote, q {
+  quotes: none; }
+
+/* line 44, _clear.sass */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none; }
+
+/* line 49, _clear.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 3, site.css.sass */
+body {
+  background: url("/images/Woods.png") no-repeat center center fixed;
+  width: 100%;
+  height: auto;
+  background-size: cover; }
+
+/* line 9, site.css.sass */
+.header {
+  width: 100%;
+  margin: auto; }
+
+/* line 15, site.css.sass */
+.header_logos {
+  text-align: right; }
+
+/* line 18, site.css.sass */
+.instagram {
+  background-image: url("/images/instagram.png"); }
+
+/* line 21, site.css.sass */
+.twitter {
+  background-image: url("/images/twitter.png"); }
+
+/* line 24, site.css.sass */
+.facebook {
+  background-image: url("/images/facebook.png"); }
+
+/* line 27, site.css.sass */
+.facebook, .twitter, .instagram {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 30px 20px 0 0; }
+
+/* line 33, site.css.sass */
+.books {
+  margin: auto;
+  text-align: center;
+  padding-top: 180px; }
+
+/* line 38, site.css.sass */
+.books-row {
+  display: inline;
+  width: 50%;
+  text-align: center; }
+
+/* line 43, site.css.sass */
+.book-image {
+  max-width: 220px;
+  max-height: 330px;
+  display: inline-block;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+  margin: 0 10px; }
+
+/* line 50, site.css.sass */
+.nav_bar {
+  background-color: white;
+  padding: 10px;
+  float: right;
+  margin-top: 60px;
+  border-radius: 4px;
+  opacity: 0.75; }
+
+/* line 58, site.css.sass */
+.nav_bar a {
+  color: black;
+  font-size: 25px;
+  margin: 0 15px; }
+
+/* line 63, site.css.sass */
+.nav_bar li {
+  display: inline-block;
+  font-family: new century schoolbook, sans script; }
+
+/* line 69, site.css.sass */
+.dropdown_button {
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer; }
+
+/* line 75, site.css.sass */
+.dropdown {
+  position: relative;
+  display: inline-block; }
+
+/* line 79, site.css.sass */
+.dropdown_content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); }
+
+/* line 86, site.css.sass */
+.dropdown_content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  font-style: italic; }
+
+/* line 94, site.css.sass */
+.dropdown_content a:hover {
+  background-color: #D3D3D3; }
+
+/* line 97, site.css.sass */
+.dropdown:hover .dropdown_content {
+  display: block; }
+
+/* line 100, site.css.sass */
+.dropdown:hover .dropdown_button {
+  background-color: #D3D3D3; }
+
+/* line 103, site.css.sass */
+.sarah_picture {
+  background-image: url("/images/sarah.png");
+  width: 400px;
+  height: 400px;
+  margin: 200px 0 0 30px; }
+
+/* line 109, site.css.sass */
+.biography {
+  background-color: #2f4f4f;
+  width: 50%;
+  float: right;
+  margin: -300px 0 0 0;
+  border-radius: 4px;
+  opacity: 0.8;
+  font-family: new century schoolbook, sans script;
+  text-align: center; }
+
+/* line 119, site.css.sass */
+.sarah_picture, .biography, .treasure_image, .treasure_description, .tundra_image, .tundra_description, .coldcase_image, .coldcase_description, .silent_image, .silent_description {
+  display: inline-block; }
+
+/* line 122, site.css.sass */
+.treasure_description, .tundra_description, .coldcase_description, .silent_description, .biography {
+  position: relative;
+  z-index: -1; }
+
+/* line 126, site.css.sass */
+.biography p {
+  color: white;
+  font-size: 20px;
+  font-family: new century schoolbook, sans script;
+  padding: 20px 10px; }
+
+/* line 132, site.css.sass */
+.biography p, .treasure_description, .tundra_description, .coldcase_description, .amazon_button, .silent_description {
+  opacity: 0.85; }
+
+/* line 135, site.css.sass */
+.treasure_image {
+  background-image: url("/images/treasure_point_secrets.jpg"); }
+
+/* line 138, site.css.sass */
+.tundra_image {
+  background-image: url("/images/tundra_threat.jpg"); }
+
+/* line 141, site.css.sass */
+.coldcase_image {
+  background-image: url("/images/cold_case_witness.jpg"); }
+
+/* line 144, site.css.sass */
+.silent_image {
+  background-image: url("/images/silent_night_shadows.jpg"); }
+
+/* line 147, site.css.sass */
+.amazon_button {
+  background-image: url("/images/Amazon-Buy-Button.png"); }
+
+/* line 150, site.css.sass */
+.amazon_button {
+  width: 186px;
+  height: 71px;
+  margin: 30px 0 0 196px; }
+
+/* line 155, site.css.sass */
+.treasure_image, .tundra_image, .coldcase_image, .silent_image {
+  width: 220px;
+  height: 330px;
+  margin: 220px 0 0 180px;
+  box-shadow: -2px 0px 64px -10px #fafafa; }
+
+/* line 161, site.css.sass */
+.treasure_description, .tundra_description, .coldcase_description, .silent_description {
+  background-color: #2f4f4f;
+  width: 48%;
+  float: right;
+  margin: -280px 0 0 0;
+  border-radius: 4px;
+  color: white;
+  font-size: 20px;
+  font-family: new century schoolbook, sans script;
+  padding: 20px 10px;
+  text-align: center; }
+
+/* line 173, site.css.sass */
+h1 {
+  font-size: 136px;
+  color: #fce88c;
+  font-family: new century schoolbook, sans script;
+  text-align: center; }
+
+/* line 179, site.css.sass */
+h2 {
+  font-size: 70px;
+  color: #fce88c;
+  font-family: Arizona;
+  font-style: italic;
+  text-align: center;
+  margin-top: 40px; }
+
+/* line 187, site.css.sass */
+.mobile-author-text {
+  display: none; }
+
+/* line 192, site.css.sass */
+#contact-wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%; }
+
+/* line 197, site.css.sass */
+.contact-form {
+  margin: 50px 16% 25px;
+  ztext-align: left;
+  float: left; }
+
+/* line 202, site.css.sass */
+.contact-form textarea {
+  width: 600px;
+  height: 200px;
+  overflow: auto; }
+
+/* line 207, site.css.sass */
+label {
+  margin-bottom: 10px;
+  display: block;
+  color: #fce88c;
+  font-weight: bold;
+  text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+  font: 14px new century schoolbook, sans script;
+  font-size: 1.5em;
+  font-weight: 100; }
+
+/* line 217, site.css.sass */
+.form-input {
+  display: block;
+  width: 600px;
+  height: 24px;
+  padding: 6px 10px;
+  margin-bottom: 20px;
+  font: 14px new century schoolbook, sans script;
+  font-size: 1em;
+  font-weight: 100;
+  color: #333;
+  background: #fff;
+  border: 1px solid #ccc;
+  outline: none;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.3), 0 1px 0 rgba(255, 255, 255, 0.5); }
+
+@media screen and (max-width: 1050px) {
+  /* line 3, _responsive.sass */
+  .books-row {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px; }
+
+  /* line 8, _responsive.sass */
+  .book-image {
+    margin: 0 6%; }
+
+  /* line 11, _responsive.sass */
+  .nav_bar {
+    float: none;
+    text-align: center; }
+
+  /* line 15, _responsive.sass */
+  .books {
+    padding-top: 80px; }
+
+  /* line 18, _responsive.sass */
+  .nav_bar li {
+    margin: 0 3%; }
+
+  /* line 21, _responsive.sass */
+  .sarah_picture, .biography, .treasure_image, .tundra_image, .coldcase_image, .silent_image, .amazon_button, .treasure_description, .tundra_description, .coldcase_description, .silent_description {
+    display: block;
+    margin: 40px auto;
+    float: none; }
+
+  /* line 26, _responsive.sass */
+  .sarah_picture {
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+  /* line 31, _responsive.sass */
+  #contact-wrapper {
+    padding: 0; }
+
+  /* line 34, _responsive.sass */
+  .contact-form {
+    margin: 50px auto 25px;
+    max-width: 80%;
+    float: none; }
+
+  /* line 39, _responsive.sass */
+  .form-input {
+    width: 85%; }
+
+  /* line 42, _responsive.sass */
+  .contact-form textarea {
+    width: 85%; } }
+@media screen and (max-width: 870px) {
+  /* line 46, _responsive.sass */
+  .nav_bar a {
+    font-size: 20px; } }
+@media screen and (max-width: 748px) {
+  /* line 50, _responsive.sass */
+  .nav_bar li {
+    margin: 0 2%; }
+
+  /* line 53, _responsive.sass */
+  .biography, .treasure_description, .tundra_description, .coldcase_description, .silent_description {
+    width: 80%;
+    font-size: 18px; } }
+@media screen and (max-width: 662px) {
+  /* line 58, _responsive.sass */
+  .nav_bar a {
+    font-size: 18px; }
+
+  /* line 61, _responsive.sass */
+  .nav_bar li {
+    margin: 0 1%; }
+
+  /* line 64, _responsive.sass */
+  h1 {
+    font-size: 50px; }
+
+  /* line 67, _responsive.sass */
+  .mobile-author-text {
+    display: block; }
+
+  /* line 70, _responsive.sass */
+  .desktop-author-text {
+    display: none; } }
+@media screen and (max-width: 583px) {
+  /* line 74, _responsive.sass */
+  img {
+    width: 100%; }
+
+  /* line 77, _responsive.sass */
+  .treasure_point_secret.book-image, .cold_case_witness.book-image {
+    margin-bottom: 20px; } }
+@media screen and (max-width: 548px) {
+  /* line 81, _responsive.sass */
+  .nav_bar a {
+    font-size: 16px; }
+
+  /* line 84, _responsive.sass */
+  .nav_bar li {
+    margin: 0.5%; } }
+@media screen and (max-width: 482px) {
+  /* line 88, _responsive.sass */
+  .header_logos {
+    text-align: center; }
+
+  /* line 91, _responsive.sass */
+  .biography, .treasure_description, .tundra_description, .coldcase_description, .silent_description {
+    width: 90%;
+    font-size: 16px; }
+
+  /* line 95, _responsive.sass */
+  .picture_container {
+    padding: 0 4%; }
+
+  /* line 98, _responsive.sass */
+  .nav_bar li {
+    margin: 0 -0.8%; }
+
+  /* line 101, _responsive.sass */
+  .nav_bar a {
+    font-size: 14px; } }
+@media screen and (max-width: 440px) {
+  /* line 105, _responsive.sass */
+  .biography {
+    margin-top: 4%; } }
+@media screen and (max-width: 400px) {
+  /* line 109, _responsive.sass */
+  .nav_bar a {
+    font-size: 12px; }
+
+  /* line 112, _responsive.sass */
+  .nav_bar li {
+    margin: 0 -2.8%; } }

@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Middleman</title>
+
+    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/all.js"></script>
+  </head>
+
+  <body class="contact">
+    <div class='home_container'>
+  <div class='header'>
+    <div class='header_logos'>
+      <div class='twitter'>
+        <a href="https://twitter.com/sarahvarland"><img src="/images/twitter.png" /></a>
+      </div>
+      <div class='facebook'>
+        <a href="https://www.facebook.com/sarah.varland"><img src="/images/facebook.png" /></a>
+      </div>
+    </div>
+    <div class='nav_bar'>
+      <li>
+        <a href='index.html'>HOME</a>
+      </li>
+      <li>
+        <a href='about.html'>ABOUT</a>
+      </li>
+      <li class='dropdown'>
+        <a class='dropdown_button' href='#'>BOOKS</a>
+        <ul class='dropdown_content'>
+          <li>
+            <a href='treasure.html'>TREASURE POINT SECRETS</a>
+            <a href='tundra.html'>TUNDRA THREAT</a>
+            <a href='coldcase.html'>COLD CASE WITNESS</a>
+            <a href='silent.html'>SILENT NIGHT SHADOWS</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href='contact.html'>CONTACT</a>
+      </li>
+      <li>
+        <a href='blog.html'>BLOG</a>
+      </li>
+    </div>
+    <div id='contact-wrapper'>
+      <form action='sarahvarland@gmail.com' class='contact-form' method='post'>
+        <label for='name'>Name</label>
+        <input class='form-input' name='name' required='' type='text'>
+        <label for='email'>Email</label>
+        <input class='form-input' name='email' required='' type='email'>
+        <label for='subject'>Subject</label>
+        <input class='form-input' name='subject' type='text'>
+        <label for='message'>Message</label>
+        <textarea class='form-input' name='message' required=''></textarea>
+        <button class='form-btn' type='submit'>Send Message</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+  </body>
+</html>
