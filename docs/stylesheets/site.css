@@ -58,7 +58,7 @@ table {
 
 /* line 3, site.css.sass */
 body {
-  background: url("/images/Woods.png") no-repeat center center fixed;
+  background: url("../images/Woods.png") no-repeat center center fixed;
   width: 100%;
   height: auto;
   background-size: cover; }
