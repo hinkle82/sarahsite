@@ -58,7 +58,7 @@ table {
 
 /* line 3, site.css.sass */
 body {
-  background: url("/docs/images/Woods.png") no-repeat center center fixed;
+  background: url("../images/Woods.png") no-repeat center center fixed;
   width: 100%;
   height: auto;
   background-size: cover; }
@@ -174,7 +174,7 @@ body {
 
 /* line 103, site.css.sass */
 .sarah_picture {
-  background-image: url("/docs/images/sarah.png");
+  background-image: url("../docs/images/sarah.png");
   width: 400px;
   height: 400px;
   margin: 200px 0 0 30px; }
@@ -212,15 +212,15 @@ body {
 
 /* line 135, site.css.sass */
 .treasure_image {
-  background-image: url("/docs/images/treasure_point_secrets.jpg"); }
+  background-image: url("../docs/images/treasure_point_secrets.jpg"); }
 
 /* line 138, site.css.sass */
 .tundra_image {
-  background-image: url("/docs/images/tundra_threat.jpg"); }
+  background-image: url("../docs/images/tundra_threat.jpg"); }
 
 /* line 141, site.css.sass */
 .coldcase_image {
-  background-image: url("/docs/images/cold_case_witness.jpg"); }
+  background-image: url("../docs/images/cold_case_witness.jpg"); }
 
 /* line 144, site.css.sass */
 .silent_image {
