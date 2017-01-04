@@ -74,15 +74,15 @@ body {
 
 /* line 18, site.css.sass */
 .instagram {
-  background-image: url("/docs/images/instagram.png"); }
+  background-image: url("/images/instagram.png"); }
 
 /* line 21, site.css.sass */
 .twitter {
-  background-image: url("/docs/images/twitter.png"); }
+  background-image: url("/images/twitter.png"); }
 
 /* line 24, site.css.sass */
 .facebook {
-  background-image: url("/docs/images/facebook.png"); }
+  background-image: url("/images/facebook.png"); }
 
 /* line 27, site.css.sass */
 .facebook, .twitter, .instagram {
@@ -174,7 +174,7 @@ body {
 
 /* line 103, site.css.sass */
 .sarah_picture {
-  background-image: url("../docs/images/sarah.png");
+  background-image: url("/images/sarah.png");
   width: 400px;
   height: 400px;
   margin: 200px 0 0 30px; }
