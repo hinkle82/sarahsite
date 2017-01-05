@@ -212,23 +212,23 @@ body {
 
 /* line 135, site.css.sass */
 .treasure_image {
-  background-image: url("../docs/images/treasure_point_secrets.jpg"); }
+  background-image: url("./images/treasure_point_secrets.jpg"); }
 
 /* line 138, site.css.sass */
 .tundra_image {
-  background-image: url("../docs/images/tundra_threat.jpg"); }
+  background-image: url("./images/tundra_threat.jpg"); }
 
 /* line 141, site.css.sass */
 .coldcase_image {
-  background-image: url("../docs/images/cold_case_witness.jpg"); }
+  background-image: url("./images/cold_case_witness.jpg"); }
 
 /* line 144, site.css.sass */
 .silent_image {
-  background-image: url("/docs/images/silent_night_shadows.jpg"); }
+  background-image: url("./images/silent_night_shadows.jpg"); }
 
 /* line 147, site.css.sass */
 .amazon_button {
-  background-image: url("/docs/images/Amazon-Buy-Button.png"); }
+  background-image: url("./images/Amazon-Buy-Button.png"); }
 
 /* line 150, site.css.sass */
 .amazon_button {
